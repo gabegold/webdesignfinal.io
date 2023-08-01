@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.google.com/specimen/Black+Han+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo Black", sans-serif;
+  background-color: #F8FCF8;
+  text-align: center;
+  padding: 50;
+}
+
+header {
+  font-family: "Black Han Sans", Regular 400;
+  text-align: center;
+  background-color: #2B5032;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #082612;
+}
+
+.about {
+  padding: 100px;
+  letter-spacing: 0.2px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #2B5032;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+}
